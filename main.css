@@ -1,0 +1,63 @@
+/* General Styling */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #88faae;
+    height: 100%;
+    overflow-x: hidden;
+  }
+  
+  /* Section Styling */
+  .section {
+    background: #031a0c ;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  .content {
+    text-align: center;
+  }
+  
+  .image {
+    width: 300px;
+    height: auto;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .text {
+    font-size: 2rem;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  /* When the section is active, show content */
+  .section.active .image,
+  .section.active .text {
+    opacity: 1;
+  }
+  .button-container {
+    display: flex;
+    gap: 20px;
+}
+
+/* Button Styling */
+.choice-button {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #053517;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.choice-button:hover {
+    background-color: #158f04;
+}
+  

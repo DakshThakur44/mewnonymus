@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GIF, Message, and Sound</title>
+    <link rel="stylesheet" href="neutralend.css">
+</head>
+<body>
+
+    <div class="container">
+        <img src="neutralgif.gif" alt="Cool GIF" class="gif">
+        <h1 class="message">Neutral Ending!</h1>
+        <h1 class="message">Yeah thats literally the end, i guess the story wont progress if the hero is a wuss!</h1>
+        <h1 class="message">(psst....maybe try different choices for a different ending)</h1>
+    </div>
+
+    <!-- Audio -->
+    <audio id="sound" src="neutralsound.mp3"></audio>
+
+    <script>
+        // Play the sound when the page loads
+        window.onload = function() {
+            document.getElementById('sound').play();
+        };
+    </script>
+
+</body>
+</html>

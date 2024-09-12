@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hack</title>
+    <link rel="stylesheet" href="hackgame.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>DECRYPT THE CODE</h1>
+        <p class="code"><strong>1000101</strong></p>
+
+        <input type="text" id="solution" placeholder="Enter the solution" class="input-field">
+        <button onclick="checkSolution()" class="submit-button">Submit</button>
+
+        <p id="message"></p>
+    </div>
+
+    <script>
+        function checkSolution() {
+            var userInput = document.getElementById('solution').value;
+            var correctSolution = "69"; // Set the correct code here
+
+            if (userInput === correctSolution) {
+                window.location.href = "./ending.html"; // Redirect to another site
+            } else {
+                document.getElementById('message').textContent = "Incorrect solution. Try again.";
+            }
+        }
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,32 @@
+/* General Styling */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #111;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Container */
+.container {
+    text-align: center;
+}
+
+/* GIF Styling */
+.gif {
+    width: 300px;
+    height: auto;
+    border: 5px solid #757575;
+    border-radius: 10px;
+}
+
+/* Message Styling */
+.message {
+    font-size: 2rem;
+    color: #ff0000;
+    margin-top: 20px;
+}

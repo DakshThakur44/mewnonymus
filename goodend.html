@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GIF, Message, and Sound</title>
+    <link rel="stylesheet" href="neutralend.css">
+</head>
+<body>
+
+    <div class="container">
+        <img src="goodend.gif" alt="Cool GIF" class="gif">
+        <h1 class="message">The Good Ending!</h1>
+        <h1 class="message">You did it you lil nerd </h1>
+        <h1 class="message">Thanks for playing and remember to stay locked in and keep the mewing streak going shhhh....</h1>
+        <h1 class="message">(psst....maybe try different choices for a different ending)</h1>
+    </div>
+
+    <!-- Audio -->
+    <audio id="sound" src="goodsound.mp3"></audio>
+
+    <script>
+        // Play the sound when the page loads
+        window.onload = function() {
+            document.getElementById('sound').play();
+        };
+    </script>
+
+</body>
+</html>

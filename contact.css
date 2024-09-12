@@ -1,0 +1,62 @@
+/* General Styling */
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif;
+    background-color: #063f10;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 80%;
+    max-width: 600px;
+    margin: auto;
+    background-color: #003110;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Header */
+h1 {
+    margin-bottom: 20px;
+    color: #fcfcfc;
+}
+
+/* Author Card */
+.author-card {
+    background-color: #009e69;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+.author-card h2 {
+    margin-bottom: 10px;
+    color: #dbdbdb;
+}
+
+.author-card p {
+    margin: 5px 0;
+}
+
+.author-card a {
+    color: #20a6ff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.author-card a:hover {
+    text-decoration: underline;
+}
+
+/* Hover effect */
+.author-card:hover {
+    background-color: #000000;
+}

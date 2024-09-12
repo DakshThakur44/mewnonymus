@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GIF, Message, and Sound</title>
+    <link rel="stylesheet" href="neutralend.css">
+</head>
+<body>
+
+    <div class="container">
+        <img src="badend.gif" alt="Cool GIF" class="gif">
+        <h1 class="message">Bad Ending!</h1>
+        <h1 class="message">You got defeated in the fight and put into prison! </h1>
+        <h1 class="message">Maybe you should've practiced those punches instead of leetcode  </h1>
+        <h1 class="message">(psst....maybe try different choices for a different ending)</h1>
+    </div>
+
+    <!-- Audio -->
+    <audio id="sound" src="badsound.mp3"></audio>
+
+    <script>
+        // Play the sound when the page loads
+        window.onload = function() {
+            document.getElementById('sound').play();
+        };
+    </script>
+
+</body>
+</html>

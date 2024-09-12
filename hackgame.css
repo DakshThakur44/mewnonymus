@@ -1,0 +1,60 @@
+/* General Styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #012709;
+}
+
+/* Container Styling */
+.container {
+    text-align: center;
+    background-color: #022c15;
+    padding: 40px;
+    border: 0px solid #ddd;
+    box-shadow: 0 0 10px rgba(134, 134, 134, 0.671);
+    border-radius: 10px;
+}
+
+/* Code Display */
+.code {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+/* Input Field Styling */
+.input-field {
+    width: 80%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #2f8316;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+/* Button Styling */
+.submit-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #00491c;
+    color: rgb(252, 253, 252);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}   
+
+.submit-button:hover {
+    background-color: #03a727;
+}
+
+/* Message Styling */
+#message {
+    color: red;
+    font-size: 1rem;
+    margin-top: 20px;
+}
